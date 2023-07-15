@@ -318,7 +318,7 @@ class PaymentSheetViewController: UIViewController {
         case .addingNew:
             headerLabel.isHidden = isWalletEnabled
             headerLabel.text = STPLocalizedString(
-                "Add your payment information",
+                "Add your payment information test",
                 "Title shown above a form where the customer can enter payment information like credit card details, email, billing address, etc."
             )
         case .selectingSaved:
